@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background: url("file:///C:/Users/User/eclipse-workspace/V1Annapurna/WebContent/thali1.JPG") no-repeat center center fixed; 
+  background-size:100% 100%;
+} 
+
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, grey 0%, pink 125%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color:rgba(255, 255, 255, 0.8);;
+  font-size: 24px;
+}
+
+#chkToggle {
+  display: none;
+}
+
+#chkToggle:checked + ul.main-nav {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  #chkToggle:checked + ul.main-nav {
+    display: flex;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: black;
+  }
+ 
+}
+ img1:before{ content:""; position: absolute; top:0; bottom:0; left:0; right:0; opacity:.4; z-index:-1; } .slider{ display:flex; height:500px; width:100%; text-align:center; color:black; font-weight: bold;}
+  
+  .slider p{ font-weight:bold; color:white; font-size: 20px; font-family:cursive;} .slider a{ padding: 10px 40px} .slider a.btn-half:hover{ color:whitesmoke; background: black; text-decoration:none; box-shadow:0 0 20px 0 rgba(0,0,0,0.3); transition: 0ms ease-in-out; transform: scale(1, 1); } .slider a.btn-half{ border-radius: 20px; margin:0 30px; transform: scale(.8); padding:0px 30px; outline: none; font-weight: 500; color:#000000; font-size: 1.3rem; background-color:white; line-height: 1.6; text-align: center; font-weight: bold;} .slider a.btn-full{ border-radius: 20px; margin:0 30px; transform: scale(.8); padding:0px 30px; outline: none; font-weight: 500; color:#000000; font-size: 1.3rem; background-color:white; line-height: 1.6; text-align: center; font-weight: bold;} .slider a.btn-full:hover{ color:whitesmoke; background: black; text-decoration:none; box-shadow:0 20px 20px 0 rgba(0,0,0,0.3); transition: 0ms ease-in-out; transform: scale(1, 1);}
+	
+	.img1{ padding:10px; background-repeat:no-repeat; background-size: 100% 100%;height:500px; position: relative; background-image:url("file:///C:/Users/User/eclipse-workspace/V1Annapurna/WebContent/thali.jpg"); width:100%; }.img1:before{ content:""; position: absolute; top:0; bottom:0; left:0; right:0; opacity:.4; z-index:-1;
